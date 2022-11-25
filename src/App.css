@@ -1,0 +1,62 @@
+body{
+  background-color: #84f7ff;
+}
+#root{
+  display: flex;
+  justify-content: center;
+}
+.App{
+  background-color: rgba(255, 255, 255, 0.658);
+  width: 400px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+
+}
+input{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  width: 300px;
+  padding: 5px;
+}
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+ list-style-type: none;
+ display: flex;
+ align-items: center;
+ width: 250px;
+}
+.wagen{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.crossed{
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  display: flex;
+ justify-content: center;
+ margin-top: 20px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 14pt;
+ width: 250px;
+ border:  none;
+ color: white;
+ padding: 5px;
+}
+.add{
+  background-color: 
+  #71b970;
+
+}
+.delete{
+  background-color: #fca76e;
+}
